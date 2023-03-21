@@ -5,14 +5,18 @@
     margin: 1rem;
 }
 
-#skillset img {
-    max-width: 7rem;
-    cursor: context-menu;
+#skillset > div > div {
     background: var(--white);
     border-radius: .2rem;
-    height: 10rem;
-    padding: 1rem;
 }
+
+#skillset img {
+    cursor: context-menu;
+    max-width: 10rem;
+    max-height: 5rem;
+    padding: 0.5rem;
+}
+
 
 #skillset > div > div {
     position: relative;

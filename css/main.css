@@ -11,3 +11,8 @@
     --black: #323333;
     --black2: #2a2b2b;
 }
+
+body,
+html {
+    overflow-x: hidden;
+}
